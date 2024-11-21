@@ -1,0 +1,70 @@
+.button{
+    background: linear-gradient(to right, rgb(89, 182, 213), white);
+    border: none;
+    color: darkblue;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 100px;
+    border-radius: 50px;
+}
+
+@media screen and (max-width: 1022px) {
+
+    .button{
+        background: linear-gradient(to right, rgb(89, 182, 213), white);
+        border: none;
+        color: darkblue;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+       
+
+    }
+    
+}
+
+@media (prefers-color-scheme: light) {
+    
+    .button{
+        background: linear-gradient(to right, rgb(31, 31, 187), black);
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        margin-left: 100px;
+    }
+
+    @media screen and (max-width: 1022px) {
+
+        .button{
+            background: linear-gradient(to right, rgb(31, 31, 187), black);
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+           
+
+        }
+        
+    }
+
+}
